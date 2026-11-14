@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d19">
+  <meta name="description" content="WindowsAgent is an independent local project exploring a coordinated AI workspace for game development and software engineering.">
+  <title>WindowsAgent — Your Personal AI Development Workspace</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="brand" href="#top" aria-label="WindowsAgent home">
+        <img src="assets/images/logo.svg" width="38" height="38" alt="">
+        <span>Windows<span class="brand-accent">Agent</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#overview">Overview</a><a href="#capabilities">Capabilities</a><a href="#architecture">Architecture</a><a href="#security">Security</a><a href="#status">Project Status</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Independent project <span class="eyebrow-divider">/</span> In development</p>
+        <h1 id="hero-title">Your Personal AI<br><span class="gradient-text">Development Workspace</span></h1>
+        <p class="hero-lede">A locally hosted Windows application designed to coordinate AI-assisted mobile game development, software engineering, and local task automation through a unified workspace.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#architecture">Explore the architecture <span aria-hidden="true">↘</span></a><a class="text-link" href="#capabilities">See capabilities <span aria-hidden="true">→</span></a></div>
+        <div class="hero-note"><span class="note-icon" aria-hidden="true">◈</span><span>Private local project<br><strong>Currently in Development</strong></span></div>
+      </div>
+      <div class="hero-visual" aria-label="Illustration of a coordinated local development workspace">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-core"><img src="assets/images/logo.svg" alt="" width="78" height="78"><span>WindowsAgent</span><small>LOCAL WORKSPACE</small></div>
+        <div class="float-chip chip-chat"><span class="chip-icon cyan">✳</span><span>AI Chat<small>Plan &amp; review</small></span></div>
+        <div class="float-chip chip-agent"><span class="chip-icon violet">⌘</span><span>AI Agent<small>Development tasks</small></span></div>
+        <div class="float-chip chip-tools"><span class="chip-icon blue">▦</span><span>Local tools<small>Controlled access</small></span></div>
+        <div class="visual-caption"><span class="pulse"></span> Designed for a human-led workflow</div>
+      </div>
+    </section>
+
+    <section class="intro-section" id="overview" aria-labelledby="overview-title">
+      <div class="wrap intro-grid"><div><p class="eyebrow">01 / Overview</p><h2 id="overview-title">A focused workspace for<br>building what’s next.</h2></div><div class="intro-body"><p>WindowsAgent is a private, local project by an independent developer. Its primary focus is creating mobile games for Android and iOS with Godot and AI assistance.</p><p>The wider workspace is being shaped to bring project work, AI collaboration, and carefully bounded Windows tasks together in one place.</p><div class="tag-row"><span>Godot</span><span>Mobile games</span><span>Local-first</span><span>Human-directed</span></div></div></div>
+    </section>
+
+    <section class="section wrap" id="capabilities" aria-labelledby="capabilities-title">
+      <div class="section-heading"><div><p class="eyebrow">02 / Capabilities</p><h2 id="capabilities-title">A workspace taking shape</h2></div><p>Planned capabilities are presented as direction, not as a promise of autonomous execution.</p></div>
+      <div class="capability-grid">
+        <article class="cap-card"><div class="card-top"><span class="card-icon cyan">◫</span><span class="state state-present">Foundation</span></div><h3>AI-Assisted Game Development</h3><p>Support a human-led workflow for building Android and iOS games with Godot and AI.</p></article>
+        <article class="cap-card"><div class="card-top"><span class="card-icon violet">⟷</span><span class="state state-design">In design</span></div><h3>Dual-AI Collaboration</h3><p>Bring planning and review together with a separate AI coding agent for implementation tasks.</p></article>
+        <article class="cap-card"><div class="card-top"><span class="card-icon blue">▤</span><span class="state state-present">Foundation</span></div><h3>Project and Task Management</h3><p>Organize project work and task context within the local application foundation.</p></article>
+        <article class="cap-card"><div class="card-top"><span class="card-icon teal">⌘</span><span class="state state-design">Planned</span></div><h3>Persistent Project Context</h3><p>Keep relevant project information available across work sessions, with user control.</p></article>
+        <article class="cap-card"><div class="card-top"><span class="card-icon purple">⌁</span><span class="state state-design">Planned</span></div><h3>Windows Automation</h3><p>Explore bounded local automation for diagnostics and routine development tasks.</p></article>
+        <article class="cap-card"><div class="card-top"><span class="card-icon green">◇</span><span class="state state-principle">Design principle</span></div><h3>Security and User Control</h3><p>Shape execution around explicit permissions, isolated credentials, and clear user oversight.</p></article>
+      </div>
+      <div class="legend"><span><i class="legend-dot present"></i> Foundation implemented</span><span><i class="legend-dot design"></i> Planned or in design</span><span><i class="legend-dot synthetic"></i> Synthetic checks only</span></div>
+    </section>
+
+    <section class="architecture-section" id="architecture" aria-labelledby="architecture-title">
+      <div class="wrap"><div class="section-heading"><div><p class="eyebrow">03 / Architecture</p><h2 id="architecture-title">Two AI roles. One coordinated workflow.</h2></div><p>The target design separates reasoning from implementation and places a controlled boundary around execution.</p></div>
+        <div class="diagram-frame"><img src="assets/images/architecture.svg" alt="Architecture flow: User ↔ AI Chat ↔ AI Orchestrator ↔ Authorization Boundary ↔ AI Coding Agent ↔ Development Tools. Shared project context supports the workflow; task reporting returns to the user." loading="lazy"><div class="diagram-legend"><span><i class="line-key cyan-key"></i>Conversation and coordination</span><span><i class="line-key violet-key"></i>Permission-controlled execution</span></div></div>
+        <div class="role-grid"><article><span class="role-number">01</span><h3>AI Chat</h3><p>Handles planning, reasoning, and review.</p></article><article><span class="role-number">02</span><h3>AI Orchestrator</h3><p>Designed to coordinate task progress and reports automatically.</p></article><article><span class="role-number">03</span><h3>AI Coding Agent</h3><p>Handles implementation and development tasks within the allowed scope.</p></article><article><span class="role-number">04</span><h3>Authorization Boundary</h3><p>Policies govern access to execution capabilities and local tools.</p></article></div>
+        <p class="architecture-footnote"><span aria-hidden="true">ⓘ</span> This is a target architecture. Individual components have been synthetically checked; automatic end-to-end interaction is still under development and is not enabled.</p>
+      </div>
+    </section>
+
+    <section class="section wrap security-section" id="security" aria-labelledby="security-title">
+      <div class="security-copy"><p class="eyebrow">04 / Security &amp; privacy</p><h2 id="security-title">Local by design.<br><span class="gradient-text">User in control.</span></h2><p>Security principles guide development, while implementation and verification continue. No production security certification is claimed.</p></div>
+      <div class="principles"><div class="principle"><span>01</span><div><h3>Local-first architecture</h3><p>Designed to keep the application and project workflow on the user's device.</p></div></div><div class="principle"><span>02</span><div><h3>Credential isolation</h3><p>Keep authentication material separate from ordinary project content.</p></div></div><div class="principle"><span>03</span><div><h3>Explicit authorization</h3><p>Sensitive operations should require user-controlled permission.</p></div></div><div class="principle"><span>04</span><div><h3>Bounded, controlled execution</h3><p>AI requests and local actions are intended to stay within defined limits.</p></div></div><div class="principle"><span>05</span><div><h3>No automatic paid fallback</h3><p>Fallback to paid services is not intended to happen automatically.</p></div></div></div>
+    </section>
+
+    <section class="status-section" id="status" aria-labelledby="status-title"><div class="wrap status-wrap"><div class="status-heading"><p class="eyebrow">05 / Project status</p><h2 id="status-title">Early work, clearly stated.</h2><p>WindowsAgent is an active independent project and remains under development.</p></div><div class="status-list"><div><span class="status-check">✓</span><p><strong>Active Development</strong><small>Private local project; not publicly distributed.</small></p><span class="status-label">Current</span></div><div><span class="status-check">✓</span><p><strong>Project and chat foundations</strong><small>Local project and chat foundations implemented.</small></p><span class="status-label">Implemented</span></div><div><span class="status-check check-violet">◌</span><p><strong>AI provider integration</strong><small>Prepared and synthetically tested.</small></p><span class="status-label label-violet">Synthetic checks</span></div><div><span class="status-check check-muted">…</span><p><strong>Real AI authentication</strong><small>Pending eligibility and security verification.</small></p><span class="status-label label-muted">Pending</span></div><div><span class="status-check check-muted">…</span><p><strong>Autonomous agent execution</strong><small>Under development and not currently enabled.</small></p><span class="status-label label-muted">Not enabled</span></div></div><p class="integration-note">Sign in with ChatGPT integration is being evaluated through official OpenAI mechanisms. No partnership or approval has been granted at this time.</p></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-main"><a class="brand footer-brand" href="#top"><img src="assets/images/logo.svg" width="32" height="32" alt=""><span>Windows<span class="brand-accent">Agent</span></span></a><p>Independent Personal Project</p><a class="back-top" href="#top">Back to top ↑</a></div><div class="wrap footer-bottom"><p>Private application. Not publicly distributed.<br>This website provides information about a project currently under development.</p><p>WindowsAgent is not affiliated with, endorsed by, or sponsored by OpenAI.</p><span>© <span id="year">2026</span> WindowsAgent</span></div></footer>
+</body>
+</html>
+
